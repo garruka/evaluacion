@@ -1,5 +1,9 @@
 from django.http import HttpResponse
+
+
 def vista1(request):
- return HttpResponse("<h1>App2 - Vista1</h1><p>Hola  App2/Vista1</p><a>todo bien</a>")
+    return HttpResponse("<h1>hola<h1><a>desde la</a><p>la primera app2 y primera vista<p>")
+
 def vista2(request):
- return HttpResponse("<h1>App2 - Vista2</h1><p>Hol App2/Vista2</p><a>todo bien</a>")
+    return HttpResponse("<h1>hola<h1><a>desde la</a><p>la primera app2 y segunda vista<p>")
+
